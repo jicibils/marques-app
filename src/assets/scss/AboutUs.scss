@@ -1,0 +1,73 @@
+.about-us-container {
+  color: #fff;
+  z-index: 4;
+
+  .about-us-title {
+    display: grid;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+    .about-us-title-first {
+      font-family: 'Bevan', cursive;
+      font-size: 50px;
+    }
+    .about-us-title-second {
+      font-family: 'Bevan', cursive;
+      font-size: 50px;
+    }
+  }
+
+  .about-us-text-container {
+    background-color: black;
+    font-family: 'Google Sans', sans-serif;
+    font-size: 18px;
+    width: 40%;
+    padding: 50px;
+    text-align: center;
+    transform: translate(-50%, -50%) !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+
+    .about-us-text {
+      padding-top: 50px;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .about-us-container {
+    .about-us-title {
+      top: 20%;
+      left: 40%;
+      right: 0;
+    }
+    .about-us-text-container {
+      font-size: 18px;
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  /* For mobile phones: */
+  .about-us-container {
+    .about-us-title {
+      top: 18%;
+
+      .about-us-title-first {
+        font-size: 40px;
+      }
+      .about-us-title-second {
+        font-size: 40px;
+      }
+    }
+  }
+}

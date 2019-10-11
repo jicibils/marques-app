@@ -1,0 +1,18 @@
+.button-scroll {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: #e95320;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.arrow-up {
+  font-size: 30px;
+  padding-bottom: 5px;
+}

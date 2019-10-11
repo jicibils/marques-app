@@ -1,0 +1,114 @@
+.intro-container {
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: -65px;
+  background-color: rgba(34, 34, 34, 0.5);
+  background-image: url('../../assets/images/backgroundstatic3.jpg');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center;
+
+  .background-video {
+    width: auto;
+    min-width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    z-index: 1;
+    justify-content: flex-start;
+    display: flex;
+  }
+
+  .background-filter {
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    // position: fixed;
+    z-index: 2;
+    // background-color: #0000009b;
+    background-color: rgba(34, 34, 34, 0.5);
+    background-image: url('../../assets/patterns/square.png');
+    background-repeat: repeat;
+    background-size: 6px;
+  }
+
+  .title-container {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    // margin-left: auto;
+    // margin-right: auto;
+    justify-content: center;
+    margin-top: 40vh;
+    // border: 5px solid black;
+
+    // background-color: #0000009b;
+    // padding: 10px;
+    // padding-top: 55px;
+
+    .h3-1 {
+      color: white;
+      line-height: 20px !important;
+      // font-family: 'Patua One', cursive;
+      // font-family: 'Russo One', sans-serif;
+      // font-family: 'Paytone One', sans-serif;
+      font-family: 'Bevan', cursive;
+      // font-family: 'Saira Stencil One', cursive;
+      font-size: 80px;
+
+      padding-top: 60px;
+      padding-right: 10px;
+      padding-left: 10px;
+      border-top: 5px solid black;
+      border-right: 5px solid black;
+      border-left: 5px solid black;
+      text-shadow: -1px 0 black, 0 10px black, 1px 0 black, 0 -1px black;
+    }
+    .h3-2 {
+      font-family: 'Bevan', cursive;
+      font-size: 85px;
+      color: white;
+      border-bottom: 5px solid black;
+      border-right: 5px solid black;
+      border-left: 5px solid black;
+      padding-right: 10px;
+      padding-left: 10px;
+      text-shadow: -1px 0 black, 0 8px black, 1px 0 black, 0 -1px black;
+    }
+    .subtitle {
+      font-size: 30px;
+      font-family: 'Bevan', cursive;
+      color: #f64e00;
+      text-shadow: -1px 0 black, 0 3px black, 1px 0 black, 0 -1px black;
+    }
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  /* For tablets: */
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .intro-container {
+    min-height: 140vh;
+
+    .background-filter {
+      min-height: 140vh;
+      background-size: 4px;
+    }
+
+    .title-container {
+      width: 100%;
+      .h3-1 {
+        font-size: 40px;
+      }
+      .h3-2 {
+        font-size: 45px;
+      }
+      .subtitle {
+        font-size: 18px;
+      }
+    }
+  }
+}

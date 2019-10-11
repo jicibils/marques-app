@@ -1,0 +1,32 @@
+.middle-block {
+  top: 100vh;
+  width: 100%;
+  height: auto;
+  z-index: 4;
+}
+
+.middle-block-mobile {
+  top: 100vh;
+  background-image: url('../../assets/images/img14.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  z-index: 4;
+  position: relative;
+}
+
+.middle-block-test {
+  top: 100vh;
+  background-image: url('../../assets/images/autosBlackWhite.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: 4;
+  position: relative;
+}

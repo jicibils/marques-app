@@ -1,0 +1,34 @@
+.brands-container {
+  height: 65vh;
+  background-color: #f2f0f0;
+  color: #2f2e2e;
+  font-size: 30px;
+
+  img {
+    -webkit-transition-property: filter; /* Safari */
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-property: filter;
+    transition-duration: 0.5s;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+  img:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .brands-container {
+    font-size: 20px;
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  /* For mobile phones: */
+  .brands-container {
+    font-size: 15px;
+  }
+}

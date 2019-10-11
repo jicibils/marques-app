@@ -1,0 +1,18 @@
+.drawer-list-container {
+  background-color: black;
+  width: 300px;
+  min-height: 100%;
+  color: white;
+
+  .drawer-list {
+    margin-top: 40px;
+  }
+
+  .drawer-list-text {
+    text-align: center;
+  }
+
+  .drawer-list-divider {
+    background-color: #f64e00;
+  }
+}
