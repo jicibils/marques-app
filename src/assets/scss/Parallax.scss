@@ -1,0 +1,65 @@
+// html,
+// body {
+//   font-family: Open Sans;
+//   font-size: 18px;
+//   line-height: 28px;
+//   scroll-behavior: smooth;
+// }
+// h1 {
+//   letter-spacing: -15px;
+//   font-family: Open Sans;
+//   color: white;
+//   text-align: center;
+//   font-size: 200px;
+//   font-weight: 800;
+//   line-height: 200px;
+// }
+// .MainContainer {
+//   perspective: 1px;
+//   transform-style: preserve-3d;
+//   height: 100vh;
+//   overflow-x: hidden;
+//   overflow-y: scroll;
+// }
+// .ContentContainer {
+//   position: relative;
+//   display: block;
+//   background-color: white;
+//   z-index: 1;
+// }
+// .Content {
+//   max-width: 750px;
+//   margin: 0 auto;
+//   padding: 75px 0;
+// }
+// p {
+//   margin: 75px 0;
+// }
+// .ParallaxContainer {
+//   display: flex;
+//   flex: 1 0 auto;
+//   position: relative;
+//   z-index: -1;
+//   height: 100vh;
+//   justify-content: center;
+//   align-items: center;
+//   transform: translateZ(-1px) scale(2);
+//   background: url(https://www.toptal.com/designers/subtlepatterns/patterns/sakura.png);
+//   background-color: #fae4d8;
+// }
+// @font-face {
+//   font-family: 'Open Sans';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: local('Open Sans Regular'), local('OpenSans-Regular'),
+//     url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf)
+//       format('truetype');
+// }
+// @font-face {
+//   font-family: 'Open Sans';
+//   font-style: normal;
+//   font-weight: 800;
+//   src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),
+//     url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN8rsOUuhs.ttf)
+//       format('truetype');
+// }

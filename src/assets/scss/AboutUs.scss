@@ -1,0 +1,79 @@
+.about-us-container {
+  // height: 170vh;
+  color: #fff;
+  width: 100%;
+  position: relative;
+  top: 100vh;
+  z-index: 4;
+  background-image: url('../../assets/images/autosBlackWhite.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 90px;
+
+  .about-us-title {
+    padding-top: 90px;
+    display: grid;
+    position: absolute;
+    left: 40%;
+    text-align: left;
+    top: -40px;
+    .about-us-title-first {
+      font-family: 'Bevan', cursive;
+      font-size: 50px;
+      // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    .about-us-title-second {
+      font-family: 'Bevan', cursive;
+      font-size: 50px;
+      // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      // color: #f64e00;
+    }
+  }
+
+  .about-us-text-container {
+    background-color: black;
+    font-size: 18px;
+    font-family: 'Google Sans', sans-serif;
+    width: 40%;
+    margin-left: auto;
+    margin-right: 10%;
+    padding: 50px;
+    text-align: center;
+    // margin-top: -450px;
+
+    .about-us-text {
+      padding-top: 50px;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .about-us-container {
+    .about-us-title {
+      left: 7%;
+    }
+    .about-us-text-container {
+      font-size: 18px;
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  /* For mobile phones: */
+  .about-us-container {
+    .about-us-title {
+      .about-us-title-first {
+        font-size: 40px;
+      }
+      .about-us-title-second {
+        font-size: 40px;
+      }
+    }
+  }
+}

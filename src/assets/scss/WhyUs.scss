@@ -1,0 +1,41 @@
+.why-us-container {
+  padding-top: 1px;
+  height: 70vh;
+  background-color: #f2f0f0;
+  color: #fff;
+  width: 100%;
+  position: relative;
+  top: 100vh;
+  z-index: 4;
+  color: #2f2e2e;
+  font-size: 40px;
+
+  .icons-container {
+    height: 0px;
+    .icons {
+      font-size: 60px;
+    }
+  }
+  .text-container {
+    margin-top: 80px;
+    .sub-title {
+      font-size: 25px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .description {
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .why-us-container {
+    font-size: 20px;
+    padding-top: 50px;
+    height: 150vh;
+  }
+}

@@ -1,0 +1,44 @@
+.footer {
+  padding-top: 1px;
+  height: 113vh;
+  background-color: #000;
+  color: #f64e00;
+  font-size: 40px;
+  width: 100%;
+  position: relative;
+  top: 100vh;
+  z-index: 4;
+
+  .icons {
+    color: #a0a09f;
+    font-size: 40px;
+  }
+
+  .text-info {
+    font-size: 15px;
+    color: #a0a09f;
+  }
+
+  i {
+    color: #a0a09f;
+  }
+  a {
+    color: #000;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .footer {
+    font-size: 20px;
+    padding-top: 50px;
+    height: 130vh;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  /* For mobile phones: */
+  .footer {
+    height: 150vh;
+  }
+}

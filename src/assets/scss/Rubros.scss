@@ -1,0 +1,45 @@
+.rubros-container {
+  height: 65vh;
+  padding-top: 1px;
+  background-color: #2f2e2e;
+  color: #fff;
+  width: 100%;
+  position: relative;
+  top: 100vh;
+  z-index: 4;
+  font-size: 30px;
+
+  .button-rubros-container {
+    .button-rubros {
+      background-color: #f64e00;
+      padding: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer !important;
+    }
+    .button-rubros:hover {
+      background-color: #f0814d;
+    }
+  }
+  p {
+    font-size: 20px;
+    color: #2f2e2e;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .rubros-container {
+    font-size: 20px;
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  /* For mobile phones: */
+  .rubros-container {
+    height: 85vh;
+  }
+}
