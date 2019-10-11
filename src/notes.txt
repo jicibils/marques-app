@@ -1,0 +1,12 @@
+TODO:
+
+
+- el pasaje hacia rubros deberia ser como el login y register de carnerillo 
+- en mobile mostrar otra foto de fondo en vez que la estatica del video
+- en mobile corregir las fotos o mostrar colores de fondo
+- mobile media queries como funcionan???
+
+- referencias
+- borrar dependencias innecesarias
+- limpiar codigo
+- loading al principio de todo

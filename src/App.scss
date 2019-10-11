@@ -1,0 +1,57 @@
+@import './assets/scss/Home.scss';
+@import './assets/scss/HeaderComponent.scss';
+@import './assets/scss/FooterComponent.scss';
+@import './assets/scss/BlockTwoComponent.scss';
+@import './assets/scss/Sucursales.scss';
+@import './assets/scss/Brands.scss';
+@import './assets/scss/Rubros.scss';
+@import './assets/scss/WhyUs.scss';
+@import './assets/scss/Intro.scss';
+@import './assets/scss/BackToTopButton.scss';
+@import './assets/scss/EmptyBlock.scss';
+@import './assets/scss/AboutUs.scss';
+@import './assets/scss/RedesComponent.scss';
+@import './assets/scss/MiddleBlock.scss';
+@import './assets/scss/Parallax.scss';
+@import './assets/scss/Drawer.scss';
+@import './assets/scss/Logo.scss';
+
+.App {
+  text-align: center;
+}
+
+.app-font {
+  font-family: 'Google Sans', sans-serif;
+}
+
+.show-grid {
+  border: 2px solid black;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+// Section that is an hr with text in it
+// usage: <div class="hr-sect">CATEGORY</div>
+.hr-sect {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.35);
+  margin: 8px 0px;
+}
+.hr-sect::before,
+.hr-sect::after {
+  content: '';
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.35);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 8px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
