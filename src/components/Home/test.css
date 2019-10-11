@@ -1,0 +1,14 @@
+.pepe-card {
+  width: 45ch;
+  height: 45ch;
+  background-image: url('../../assets/images/marqueslogo.png');
+  background-size: cover;
+  background-position: center center;
+  transition: box-shadow 0.5s;
+  will-change: transform;
+
+  position: absolute;
+  top: 30%;
+  right: 50%;
+  z-index: 4;
+}
